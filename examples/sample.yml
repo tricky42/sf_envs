@@ -1,0 +1,10 @@
+apiVersion: "sf.yaas.io/v1"
+kind: Environment
+metadata:
+  name: myenv2
+spec:
+  GUID: "<guid!!!>"
+  SubAccountId: "SubId"
+status: 
+  State: "easzy"
+  Message: "läuft"

@@ -1,7 +1,7 @@
 # Build Stage
 FROM lacion/docker-alpine:gobuildimage AS build-stage
 
-LABEL app="build-sf_envs"
+LABEL app="build-sf-envs"
 LABEL REPO="https://github.com/tricky42/sf_envs"
 
 ENV GOROOT=/usr/lib/go \

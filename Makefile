@@ -5,7 +5,7 @@ BIN_NAME=sf_envs
 VERSION := $(shell grep "const Version " version.go | sed -E 's/.*"(.+)"$$/\1/')
 GIT_COMMIT=$(shell git rev-parse HEAD)
 GIT_DIRTY=$(shell test -n "`git status --porcelain`" && echo "+CHANGES" || true)
-IMAGE_NAME := "tricky42/sf_envs"
+IMAGE_NAME := "tricky42/sf-envs"
 
 default: test
 
